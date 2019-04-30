@@ -110,7 +110,7 @@ int main(void)
 
 	  if(HAL_GPIO_ReadPin(GPIOB,GPIO_PIN_1)==0);
 	  {
-		  dleay_value =  300;
+		  dleay_value =  100;
 	  }
 
 	  HAL_GPIO_TogglePin(GPIOC,GPIO_PIN_13);
