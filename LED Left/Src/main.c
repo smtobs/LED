@@ -132,12 +132,12 @@ int main(void)
 		  count++;
 	  }
 
-	//  if(flag==0)
-	 // {
+	  if(flag==0)
+	  {
 		  if(count<0)
-	//		  count = 8;
-//		  count--;
-	//  }
+			  count = 8;
+		  count--;
+	  }
 
 	  bytedatawrite(1<<count);
 	  HAL_Delay(300);
